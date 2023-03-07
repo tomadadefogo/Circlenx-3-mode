@@ -57,8 +57,8 @@ export default function page(){
 
   return (
     <>
-    <div id={Styles.container} className="flex flex-col items-center h-full w-full bg-black">
-  <div id={Styles.grid} className="grid grid-cols-3 gap-4 mx-auto my-8">
+    <div id={Styles.container} className="flex flex-col items-center h-full w-full bg-black fundo">
+  <div id={Styles.grid} className="grid grid-cols-3 gap-4 mx-auto my-8 bloco">
     {field.map((item, index) => (
       <div 
         key={index}
