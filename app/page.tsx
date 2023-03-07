@@ -85,7 +85,7 @@ export default function page(){
   <div className='bg-white p-2 rounded pvc'>
     <Link href='/exemplo'>Player VS CPU</Link>
   </div>
-  <div className='bg-white mx-2 p-2 rounded cvc'>
+  <div className='bg-white mx-2 p-2 rounded cpvscp'>
     <Link href='/cpuvscpu'>CPU VS CPU</Link>
   </div>
   </div>
