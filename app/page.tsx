@@ -78,14 +78,14 @@ export default function page(){
       {winner === "empate" ? "Empate!" : <span className='text-2xl font-mono'> O vencedor é: <span className='text-4xl text-purple-900 font-bold font-sans'>{winner}</span></span>}
       </p>
     }
-   <button id='Styles.restart' className='bg-yellow-300 hover:bg-yellow-500 text-black font-bold font-mono py-2 px-4 rounded shadow-sm shadow-red-100' onClick={handleRestart}>Reiniciar</button>
+   <button id='Styles.restart' className='bg-yellow-300 hover:bg-yellow-500 text-black font-bold font-mono py-2 px-4 rounded shadow-sm shadow-red-100 ' onClick={handleRestart}>Reiniciar</button>
   </div>
   <div id={Styles.links} className='flex mt-4'>
   
-  <div className='bg-white p-2 rounded'>
+  <div className='bg-white p-2 rounded pvc'>
     <Link href='/exemplo'>Player VS CPU</Link>
   </div>
-  <div className='bg-white mx-2 p-2 rounded'>
+  <div className='bg-white mx-2 p-2 rounded cvc'>
     <Link href='/cpuvscpu'>CPU VS CPU</Link>
   </div>
   </div>
